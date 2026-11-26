@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-navy: #0A2E6E;
+  --color-brand-orange: #F57C00;
+  --color-brand-green: #2E7D32;
+
+  --color-light-primary: #001A49;
+  --color-light-on-primary: #FFFFFF;
+  --color-light-primary-container: #0A2E6E;
+  --color-light-on-primary-container: #7D98DE;
+
+  --color-light-secondary: #964900;
+  --color-light-on-secondary: #FFFFFF;
+  --color-light-secondary-container: #FC820C;
+  --color-light-on-secondary-container: #5E2C00;
+
+  --color-light-tertiary: #002304;
+  --color-light-on-tertiary: #FFFFFF;
+  --color-light-tertiary-container: #003B0A;
+  --color-light-on-tertiary-container: #5CAB5A;
+
+  --color-light-error: #BA1A1A;
+  --color-light-on-error: #FFFFFF;
+  --color-light-error-container: #FFDAD6;
+  --color-light-on-error-container: #93000A;
+
+  --color-light-background: #FAF8FF;
+  --color-light-on-background: #1A1B20;
+  --color-light-surface: #FAF8FF;
+  --color-light-surface-dim: #DAD9DF;
+  --color-light-surface-bright: #FAF8FF;
+  --color-light-surface-container-lowest: #FFFFFF;
+  --color-light-surface-container-low: #F4F3F9;
+  --color-light-surface-container: #EEEDF3;
+  --color-light-surface-container-high: #E9E7EE;
+  --color-light-surface-container-highest: #E3E2E8;
+  --color-light-on-surface: #1A1B20;
+  --color-light-surface-variant: #E0E2EE;
+  --color-light-on-surface-variant: #444650;
+  --color-light-outline: #747781;
+  --color-light-outline-variant: #C4C6D2;
+  --color-light-inverse-surface: #2F3035;
+  --color-light-inverse-on-surface: #F1F0F6;
+  --color-light-inverse-primary: #B1C5FF;
+
+  --font-display: "Mulish", sans-serif;
+  --font-headline: "Mulish", sans-serif;
+  --font-title: "Instrument Sans", sans-serif;
+  --font-body: "Instrument Sans", sans-serif;
+  --font-label: "Instrument Sans", sans-serif;
+  --font-mono: "Spline Sans Mono", monospace;
+
+  --radius-sm: 4px;
+  --radius-DEFAULT: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  --spacing-gutter-xs: 4px;
+  --spacing-gutter-sm: 8px;
+  --spacing-gutter-md: 16px;
+  --spacing-gutter-lg: 24px;
+  --spacing-gutter-xl: 32px;
+  --spacing-section: 64px;
+  --spacing-page-margin: 24px;
+
+  --transition-duration-state-change: 120ms;
+  --transition-duration-surface-enter: 250ms;
+  --transition-duration-surface-exit: 150ms;
+
+  --transition-timing-function-state-change: ease-out;
+  --transition-timing-function-surface-enter: cubic-bezier(0.2, 0, 0, 1);
+  --transition-timing-function-surface-exit: cubic-bezier(0.3, 0, 1, 1);
+}
+
+@layer utilities {
+  .text-display-lg {
+    font-size: 52px;
+    line-height: 58px;
+    letter-spacing: -0.5px;
+    font-weight: 800;
+  }
+  .text-display-lg-mobile {
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -0.25px;
+    font-weight: 800;
+  }
+  .text-headline-lg {
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.25px;
+    font-weight: 700;
+  }
+  .text-headline-lg-mobile {
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: -0.15px;
+    font-weight: 700;
+  }
+  .text-headline-md {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    font-weight: 700;
+  }
+  .text-title-lg {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    font-weight: 700;
+  }
+  .text-title-md {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-weight: 600;
+  }
+  .text-body-lg {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    font-weight: 400;
+  }
+  .text-body-md {
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    font-weight: 400;
+  }
+  .text-label-lg {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+  }
+  .text-label-sm {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.25px;
+    font-weight: 600;
+  }
+  .text-mono-md {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    font-weight: 500;
+  }
+}
+
+.material-symbols-outlined {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1 !important;
+  box-sizing: content-box;
+  overflow: hidden;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+}
