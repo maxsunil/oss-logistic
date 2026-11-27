@@ -53,7 +53,7 @@ export function WhyUsPage() {
             The OSS Advantage
           </span>
           <h1 className="font-headline text-display-lg-mobile lg:text-display-lg text-light-on-primary text-balance max-w-3xl">
-            Why enterprise shippers trust OSS Logistics LLP.
+            Why enterprise shippers trust OSS Logistics .
           </h1>
           <p className="font-body text-body-md lg:text-body-lg text-light-inverse-on-surface max-w-2xl text-pretty">
             Built around own-fleet accountability, zero-damage loading standards, and eco-compliant

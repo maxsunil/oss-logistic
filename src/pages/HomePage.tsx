@@ -35,7 +35,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
             </h1>
 
             <p className="font-body text-body-md lg:text-body-lg text-light-inverse-on-surface max-w-prose text-pretty">
-              OSS Logistics LLP moves full truckloads, scheduled part-loads, and temperature-sensitive
+              OSS Logistics  moves full truckloads, scheduled part-loads, and temperature-sensitive
               cargo across national highway corridors with BS-VI fleet reliability and dedicated
               regional hubs.
             </p>

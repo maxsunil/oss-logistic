@@ -8,7 +8,7 @@ export function AboutPage() {
       <section className="bg-light-primary text-light-on-primary py-8 lg:py-14">
         <div className="max-w-7xl mx-auto px-gutter-md lg:px-gutter-lg flex flex-col gap-2 lg:gap-3">
           <span className="font-label text-label-sm lg:text-label-lg text-light-secondary-container">
-            About OSS Logistics LLP
+            About OSS Logistics 
           </span>
           <h1 className="font-headline text-display-lg-mobile lg:text-display-lg text-light-on-primary text-balance max-w-3xl">
             Moving industrial India with discipline, safety, and accountability.
@@ -28,7 +28,7 @@ export function AboutPage() {
             Built on own-fleet control and regional cross-docking hubs.
           </h2>
           <p className="font-body text-body-md text-light-on-surface-variant text-pretty">
-            OSS Logistics LLP operates a modern fleet of 450+ commercial vehicles across 28 regional
+            OSS Logistics  operates a modern fleet of 450+ commercial vehicles across 28 regional
             hubs. Unlike pure freight brokers, we manage our own highway corridors, driver relay
             teams, and standardized loading protocols so every consignment arrives intact and on
             time.

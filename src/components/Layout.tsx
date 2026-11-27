@@ -78,7 +78,7 @@ export function Layout({ currentPage, onNavigate, children }: LayoutProps) {
           >
             <SafeImage
               src={IMAGES.logo}
-              alt="OSS Logistics LLP Logo"
+              alt="OSS Logistics  Logo"
               isLogo
               className="w-10 h-10 lg:w-11 lg:h-11 rounded-full object-cover border border-light-outline-variant bg-light-surface-container-lowest"
             />
@@ -184,7 +184,7 @@ export function Layout({ currentPage, onNavigate, children }: LayoutProps) {
             <div className="flex items-center gap-3">
               <SafeImage
                 src={IMAGES.logo}
-                alt="OSS Logistics LLP Logo"
+                alt="OSS Logistics  Logo"
                 isLogo
                 className="w-12 h-12 rounded-full object-cover bg-light-surface-container-lowest"
               />
@@ -255,7 +255,7 @@ export function Layout({ currentPage, onNavigate, children }: LayoutProps) {
           <div className="flex items-center gap-3">
             <SafeImage
               src={IMAGES.logo}
-              alt="OSS Logistics LLP Logo"
+              alt="OSS Logistics  Logo"
               isLogo
               className="w-10 h-10 rounded-full object-cover bg-light-surface-container-lowest"
             />
@@ -287,14 +287,14 @@ export function Layout({ currentPage, onNavigate, children }: LayoutProps) {
             {COMPANY_INFO.phonePrimary} • {COMPANY_INFO.email}
           </p>
           <p className="font-label text-label-sm text-light-on-primary-container">
-            © 2026 OSS Logistics LLP. All rights reserved.
+            © 2026 OSS Logistics . All rights reserved.
           </p>
         </div>
 
         {/* Bottom Copyright Strip (Desktop) */}
         <div className="hidden lg:block border-t border-light-primary-container">
           <div className="max-w-7xl mx-auto px-gutter-lg py-4 flex flex-wrap items-center justify-between gap-2 font-label text-label-sm text-light-on-primary-container">
-            <span>© 2026 OSS Logistics LLP. All rights reserved.</span>
+            <span>© 2026 OSS Logistics . All rights reserved.</span>
             <span>Road Transport &amp; Supply Chain Solutions</span>
           </div>
         </div>

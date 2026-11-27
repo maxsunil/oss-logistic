@@ -47,7 +47,7 @@ export function FranchisePage() {
             Franchise &amp; Hub Partnership
           </span>
           <h1 className="font-headline text-display-lg-mobile lg:text-display-lg text-light-on-primary text-balance max-w-3xl">
-            Build a profitable road logistics hub with OSS Logistics LLP.
+            Build a profitable road logistics hub with OSS Logistics .
           </h1>
           <p className="font-body text-body-md lg:text-body-lg text-light-inverse-on-surface max-w-2xl text-pretty">
             Partner with an established national road transport network. Operate an authorized

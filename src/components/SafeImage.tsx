@@ -14,7 +14,7 @@ export function SafeImage({
   alt,
   className = '',
   fallbackIcon = 'local_shipping',
-  fallbackLabel = 'OSS Logistics LLP',
+  fallbackLabel = 'OSS Logistics ',
   isLogo = false,
 }: SafeImageProps) {
   const [hasError, setHasError] = useState(false);

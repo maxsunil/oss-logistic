@@ -16,14 +16,14 @@ import { ServicesPage } from './pages/ServicesPage';
 import { WhyUsPage } from './pages/WhyUsPage';
 
 const PAGE_TITLES: Record<PageRoute, string> = {
-  home: 'OSS Logistics LLP — Home | Road Transport & Freight',
-  about: 'OSS Logistics LLP — About Us',
-  services: 'OSS Logistics LLP — Road Transport Services',
-  franchise: 'OSS Logistics LLP — Franchise Partner Program',
-  process: 'OSS Logistics LLP — Our Process',
-  network: 'OSS Logistics LLP — Network & Hubs',
-  'why-us': 'OSS Logistics LLP — Why Us',
-  contact: 'OSS Logistics LLP — Contact Us',
+  home: 'OSS Logistics  — Home | Road Transport & Freight',
+  about: 'OSS Logistics  — About Us',
+  services: 'OSS Logistics  — Road Transport Services',
+  franchise: 'OSS Logistics  — Franchise Partner Program',
+  process: 'OSS Logistics  — Our Process',
+  network: 'OSS Logistics  — Network & Hubs',
+  'why-us': 'OSS Logistics  — Why Us',
+  contact: 'OSS Logistics  — Contact Us',
 };
 
 function getRouteFromLocation(): PageRoute {
